@@ -22,8 +22,6 @@ const SoundDetail = dynamic(() =>
 import { useHoverPreview } from "@/hooks/use-hover-preview";
 import { useTypewriter } from "@/hooks/use-typewriter";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://soundcn.dev";
-
 interface SoundsPageProps {
   sounds: SoundCatalogItem[];
 }
@@ -118,7 +116,7 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
   const [pm, setPm] = usePackageManager();
 
   const heroWords = useMemo(
-    () => pickHeroWords(sounds, 6).map((n) => `${n}.json`),
+    () => pickHeroWords(sounds, 6),
     [sounds]
   );
   const { text: typedName, isTyping: cursorActive } = useTypewriter({
@@ -297,7 +295,7 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
             <div className="bg-secondary/70 border-border/60 inline-flex items-center gap-3 rounded-lg border px-4 py-2.5 font-mono text-sm backdrop-blur-sm">
               <span className="text-primary select-none">$</span>
               <code className="text-foreground/80">
-                <span>{`${getInstallPrefix(pm)} add ${BASE_URL}/r/`}</span>
+                <span>{`${getInstallPrefix(pm)} add @soundcn/`}</span>
                 <span className="text-primary">{typedName}</span>
               </code>
               <span

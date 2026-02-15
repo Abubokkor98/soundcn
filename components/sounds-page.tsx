@@ -2,7 +2,7 @@
 
 import { useCallback, useDeferredValue, useMemo, useRef, useState } from "react";
 import { useQueryState, parseAsString } from "nuqs";
-import { Check, Copy, Github, ListChecks, Package } from "lucide-react";
+import { Check,  Github, ListChecks, Package } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ALL_CATEGORY, type SoundCatalogItem } from "@/lib/sound-catalog";
 import { filterSounds, buildCategoryOptions } from "@/lib/sound-filters";

@@ -4,6 +4,7 @@ import { Syne } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import "./globals.css";
+import { Suspense } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} antialiased`}
       >
+          <Suspense fallback={<>...</>}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -47,6 +49,7 @@ export default function RootLayout({
         >
           <NuqsAdapter>{children}</NuqsAdapter>
         </ThemeProvider>
+        </Suspense>
       </body>
     </html>
   );

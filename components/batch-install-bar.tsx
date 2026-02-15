@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy, Package, X } from "lucide-react";
+import { Check, Package, X } from "lucide-react";
 import { buildInstallCommand } from "@/lib/sound-install";
 import { cn } from "@/lib/utils";
 

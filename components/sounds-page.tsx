@@ -20,6 +20,7 @@ const SoundDetail = dynamic(() =>
   import("@/components/sound-detail").then((mod) => mod.SoundDetail)
 );
 import { useHoverPreview } from "@/hooks/use-hover-preview";
+import { useTypewriter } from "@/hooks/use-typewriter";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://soundcn.dev";
 
@@ -101,8 +102,28 @@ function InstallCategoryButton({
   );
 }
 
+// Pick a diverse subset of sound names for the hero typewriter
+function pickHeroWords(sounds: SoundCatalogItem[], count: number): string[] {
+  if (sounds.length === 0) return ["click-soft"];
+  // Deterministic spread: pick evenly spaced items
+  const step = Math.max(1, Math.floor(sounds.length / count));
+  const picked: string[] = [];
+  for (let i = 0; i < sounds.length && picked.length < count; i += step) {
+    picked.push(sounds[i].name);
+  }
+  return picked;
+}
+
 export function SoundsPage({ sounds }: SoundsPageProps) {
   const [pm, setPm] = usePackageManager();
+
+  const heroWords = useMemo(
+    () => pickHeroWords(sounds, 6).map((n) => `${n}.json`),
+    [sounds]
+  );
+  const { text: typedName, isTyping: cursorActive } = useTypewriter({
+    words: heroWords,
+  });
   const [query, setQuery] = useQueryState(
     "q",
     parseAsString.withDefault("").withOptions({ shallow: true, throttleMs: 300 })
@@ -276,11 +297,16 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
             <div className="bg-secondary/70 border-border/60 inline-flex items-center gap-3 rounded-lg border px-4 py-2.5 font-mono text-sm backdrop-blur-sm">
               <span className="text-primary select-none">$</span>
               <code className="text-foreground/80">
-                {`${getInstallPrefix(pm)} add ${BASE_URL}/r/click-soft.json`}
+                <span>{`${getInstallPrefix(pm)} add ${BASE_URL}/r/`}</span>
+                <span className="text-primary">{typedName}</span>
               </code>
               <span
                 className="inline-block w-[7px] h-[15px] rounded-[1px] bg-primary/60"
-                style={{ animation: "blink-caret 1.1s step-end infinite" }}
+                style={{
+                  animation: cursorActive
+                    ? "none"
+                    : "blink-caret 1.1s step-end infinite",
+                }}
                 aria-hidden="true"
               />
             </div>

@@ -2,6 +2,7 @@
 
 import { memo } from "react";
 import { cn } from "@/lib/utils";
+import { useHorizontalScroll } from "@/hooks/use-horizontal-scroll";
 
 export interface CategoryFilterOption {
   key: string;
@@ -20,9 +21,17 @@ export const CategoryFilter = memo(function CategoryFilter({
   activeCategory,
   onChange,
 }: CategoryFilterProps) {
+  const { ref, isGrabbing } = useHorizontalScroll<HTMLDivElement>();
+
   return (
-    <div className="scrollbar-hide overflow-x-auto">
-      <div className="flex min-w-max gap-2">
+    <div
+      ref={ref}
+      className={cn(
+        "scrollbar-hide w-full overflow-x-auto cursor-grab active:cursor-grabbing",
+        isGrabbing && "cursor-grabbing",
+      )}
+    >
+      <div className="flex min-w-max gap-2 pr-4">
         {options.map((option) => {
           const isActive = option.key === activeCategory;
           return (
@@ -33,7 +42,7 @@ export const CategoryFilter = memo(function CategoryFilter({
                 "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium transition-[color,border-color,box-shadow,background-color] duration-150 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
                 isActive
                   ? "bg-primary text-primary-foreground border-primary shadow-sm shadow-primary/15"
-                  : "border-border/50 bg-card text-foreground hover:border-primary/25 hover:bg-accent"
+                  : "border-border/50 bg-card text-foreground hover:border-primary/25 hover:bg-accent",
               )}
             >
               {option.label}
@@ -42,7 +51,7 @@ export const CategoryFilter = memo(function CategoryFilter({
                   "text-xs tabular-nums",
                   isActive
                     ? "text-primary-foreground/65"
-                    : "text-muted-foreground"
+                    : "text-muted-foreground",
                 )}
               >
                 {option.count}

@@ -24,7 +24,7 @@ export function SoundSearch({ value, onChange, onEnterGrid }: SoundSearchProps) 
   }, []);
 
   return (
-    <div className="relative w-full max-w-sm">
+    <div className="relative w-full lg:max-w-sm">
       <Search
         className="text-muted-foreground/60 absolute left-3 top-1/2 size-4 -translate-y-1/2"
         aria-hidden="true"

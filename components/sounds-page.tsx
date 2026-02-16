@@ -1,6 +1,13 @@
 "use client";
 
-import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { useQueryState, parseAsString } from "nuqs";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Check, Github, ListChecks, Package } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -14,10 +21,11 @@ import { SoundGrid } from "@/components/sound-grid";
 import { SoundSearch } from "@/components/sound-search";
 import { BatchInstallBar } from "@/components/batch-install-bar";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const SoundDetail = dynamic(() =>
-  import("@/components/sound-detail").then((mod) => mod.SoundDetail)
+  import("@/components/sound-detail").then((mod) => mod.SoundDetail),
 );
 import { useHoverPreview } from "@/hooks/use-hover-preview";
 import { useTypewriter } from "@/hooks/use-typewriter";
@@ -29,7 +37,7 @@ interface SoundsPageProps {
 // Deterministic bar configs for the hero equalizer
 const HERO_BARS = Array.from({ length: 32 }, (_, i) => ({
   duration: 0.6 + (((i * 7) % 11) / 11) * 0.9,
-  delay: ((i * 3) % 17) / 17 * 1.5,
+  delay: (((i * 3) % 17) / 17) * 1.5,
   height: 20 + (((i * 5) % 7) / 7) * 80,
 }));
 
@@ -61,7 +69,10 @@ function InstallCategoryButton({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    const cmd = buildInstallCommand(sounds.map((s) => s.name), pm);
+    const cmd = buildInstallCommand(
+      sounds.map((s) => s.name),
+      pm,
+    );
     try {
       await navigator.clipboard.writeText(cmd);
       setCopied(true);
@@ -78,7 +89,7 @@ function InstallCategoryButton({
         "inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium transition-[color,background-color,border-color,box-shadow] duration-150 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
         copied
           ? "border-green-500/30 bg-green-500/10 text-green-600 dark:text-green-400"
-          : "border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 active:scale-[0.97]"
+          : "border-primary/30 bg-primary/5 text-primary hover:bg-primary/10 active:scale-[0.97]",
       )}
     >
       {copied ? (
@@ -115,26 +126,25 @@ function pickHeroWords(sounds: SoundCatalogItem[], count: number): string[] {
 export function SoundsPage({ sounds }: SoundsPageProps) {
   const [pm, setPm] = usePackageManager();
 
-  const heroWords = useMemo(
-    () => pickHeroWords(sounds, 6),
-    [sounds]
-  );
+  const heroWords = useMemo(() => pickHeroWords(sounds, 6), [sounds]);
   const { text: typedName, isTyping: cursorActive } = useTypewriter({
     words: heroWords,
   });
   const [query, setQuery] = useQueryState(
     "q",
-    parseAsString.withDefault("").withOptions({ shallow: true, throttleMs: 300 })
+    parseAsString
+      .withDefault("")
+      .withOptions({ shallow: true, throttleMs: 300 }),
   );
   const [activeCategory, setActiveCategory] = useQueryState(
     "category",
-    parseAsString.withDefault(ALL_CATEGORY).withOptions({ shallow: true })
+    parseAsString.withDefault(ALL_CATEGORY).withOptions({ shallow: true }),
   );
 
   // ── Deep link: ?sound=click-soft ──
   const [soundParam, setSoundParam] = useQueryState(
     "sound",
-    parseAsString.withDefault("").withOptions({ shallow: true })
+    parseAsString.withDefault("").withOptions({ shallow: true }),
   );
 
   // Build a name→item lookup for deep linking
@@ -147,10 +157,14 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
   }, [sounds]);
 
   // Resolve the selected sound from URL param or null
-  const selectedSound = soundParam ? (soundsByName.get(soundParam) ?? null) : null;
+  const selectedSound = soundParam
+    ? (soundsByName.get(soundParam) ?? null)
+    : null;
 
   // ── Batch selection ──
-  const [selectedNames, setSelectedNames] = useState<Set<string>>(() => new Set());
+  const [selectedNames, setSelectedNames] = useState<Set<string>>(
+    () => new Set(),
+  );
   const selectMode = selectedNames.size > 0;
 
   const handleToggleSelect = useCallback((name: string) => {
@@ -177,17 +191,14 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
   // ── Filtering ──
   const filteredSounds = useMemo(
     () => filterSounds(sounds, query, activeCategory),
-    [sounds, query, activeCategory]
+    [sounds, query, activeCategory],
   );
 
   // Keep old cards visible while React prepares new ones
   const deferredSounds = useDeferredValue(filteredSounds);
   const isPending = deferredSounds !== filteredSounds;
 
-  const categoryOptions = useMemo(
-    () => buildCategoryOptions(sounds),
-    [sounds]
-  );
+  const categoryOptions = useMemo(() => buildCategoryOptions(sounds), [sounds]);
 
   const gridFocusRef = useRef<(() => void) | null>(null);
 
@@ -198,7 +209,7 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
       onPreviewStop();
       setSoundParam(sound.name);
     },
-    [onPreviewStop, setSoundParam]
+    [onPreviewStop, setSoundParam],
   );
 
   const handleClose = useCallback(() => {
@@ -208,7 +219,10 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
   // Clear batch selection when category/search changes (render-time reset
   // avoids the extra re-render + one-frame stale-selection flash of useEffect)
   const prevFiltersRef = useRef({ activeCategory, query });
-  if (prevFiltersRef.current.activeCategory !== activeCategory || prevFiltersRef.current.query !== query) {
+  if (
+    prevFiltersRef.current.activeCategory !== activeCategory ||
+    prevFiltersRef.current.query !== query
+  ) {
     prevFiltersRef.current = { activeCategory, query };
     if (selectedNames.size > 0) {
       setSelectedNames(new Set());
@@ -223,13 +237,14 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
     if (!el) return;
     const io = new IntersectionObserver(
       ([entry]) => setHeroVisible(entry.isIntersecting),
-      { threshold: 0 }
+      { threshold: 0 },
     );
     io.observe(el);
     return () => io.disconnect();
   }, []);
 
-  const showInstallAll = activeCategory !== ALL_CATEGORY && deferredSounds.length > 1;
+  const showInstallAll =
+    activeCategory !== ALL_CATEGORY && deferredSounds.length > 1;
 
   return (
     <div className="flex min-h-svh flex-col">
@@ -242,15 +257,12 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
 
       {/* ── Header ── */}
       <header className="stagger-fade-up mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
-        <div className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <EqLogo />
-          <span
-            className="font-display text-lg font-bold"
-            aria-label="soundcn"
-          >
+          <span className="font-display text-lg font-bold" aria-label="soundcn">
             soundcn
           </span>
-        </div>
+        </Link>
         <div className="flex items-center gap-4">
           <a
             href="https://github.com/kapishdima/soundcn"
@@ -310,7 +322,10 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
             with a single CLI command.
           </p>
 
-          <div className="stagger-fade-up mt-7" style={{ animationDelay: "150ms" }}>
+          <div
+            className="stagger-fade-up mt-7"
+            style={{ animationDelay: "150ms" }}
+          >
             <div className="bg-secondary/70 border-border/60 inline-flex items-center gap-3 rounded-lg border px-4 py-2.5 font-mono text-sm backdrop-blur-sm">
               <span className="text-primary select-none">$</span>
               <code className="text-foreground/80">
@@ -336,18 +351,20 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
         className="stagger-fade-up bg-background/95 sticky top-0 z-40 border-b"
         style={{ animationDelay: "200ms" }}
       >
-        <div className="mx-auto flex w-full max-w-6xl items-center gap-3 px-6 py-3">
+        <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-6 py-3 lg:flex-row lg:items-center lg:gap-3">
           <SoundSearch value={query} onChange={setQuery} onEnterGrid={() => gridFocusRef.current?.()} />
-          <div className="min-w-0 flex-1">
-            <CategoryFilter
-              options={categoryOptions}
-              activeCategory={activeCategory}
-              onChange={setActiveCategory}
-            />
+          <div className="flex min-w-0 flex-1 items-center gap-2">
+            <div className="min-w-0 flex-1">
+              <CategoryFilter
+                options={categoryOptions}
+                activeCategory={activeCategory}
+                onChange={setActiveCategory}
+              />
+            </div>
+            {showInstallAll ? (
+              <InstallCategoryButton sounds={deferredSounds} pm={pm} />
+            ) : null}
           </div>
-          {showInstallAll ? (
-            <InstallCategoryButton sounds={deferredSounds} pm={pm} />
-          ) : null}
         </div>
       </div>
 
@@ -375,7 +392,8 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
             </p>
             <p className="flex items-center gap-1.5">
               <ListChecks className="size-3.5" />
-              <kbd className="font-mono text-[10px]">&#8984;</kbd>+click to batch select
+              <kbd className="font-mono text-[10px]">&#8984;</kbd>+click to batch
+            select
             </p>
           </div>
         </div>
@@ -383,7 +401,7 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
         <div
           className={cn(
             "transition-opacity duration-150",
-            isPending ? "opacity-50" : "opacity-100"
+            isPending ? "opacity-50" : "opacity-100",
           )}
         >
           <SoundGrid
@@ -408,7 +426,12 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
       />
 
       {/* ── Drawer ── */}
-      <SoundDetail sound={selectedSound} onClose={handleClose} pm={pm} onPmChange={setPm} />
+      <SoundDetail
+        sound={selectedSound}
+        onClose={handleClose}
+        pm={pm}
+        onPmChange={setPm}
+      />
     </div>
   );
 }

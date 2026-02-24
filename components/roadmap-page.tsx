@@ -4,8 +4,8 @@ import { Check } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/header";
 import { HeroBars } from "@/components/hero-bars";
-import { loadSoundAsset } from "@/lib/sound-loader";
 import { playSound } from "@/lib/play-sound";
+import { loadSoundAsset } from "@/lib/sound-loader";
 import { cn } from "@/lib/utils";
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -220,7 +220,8 @@ function SoundLabel({
 			style={{
 				opacity: isVisible ? 1 : 0,
 				transform: isVisible ? "translateY(0)" : "translateY(6px)",
-				transition: "opacity 0.6s ease-out 320ms, transform 0.6s ease-out 320ms",
+				transition:
+					"opacity 0.6s ease-out 320ms, transform 0.6s ease-out 320ms",
 			}}
 		>
 			{/* Mini EQ bars — animate when pinged */}
@@ -229,9 +230,9 @@ function SoundLabel({
 				style={{ height: 12 }}
 				aria-hidden="true"
 			>
-				{EQ_HEIGHTS.map((h, i) => (
+				{EQ_HEIGHTS.map((h) => (
 					<span
-						key={`eq-${stepId}-${i}`}
+						key={`eq-${stepId}-${h}`}
 						className={cn(
 							"w-[2px] rounded-full transition-colors duration-700",
 							pinged
@@ -241,8 +242,8 @@ function SoundLabel({
 						style={
 							{
 								height: `${h}%`,
-								"--eq-d": `${0.55 + i * 0.1}s`,
-								"--eq-del": `${i * 0.07}s`,
+								"--eq-d": `${0.55 + h * 0.1}s`,
+								"--eq-del": `${h * 0.07}s`,
 							} as React.CSSProperties
 						}
 					/>
@@ -263,13 +264,7 @@ function SoundLabel({
 
 // ── Roadmap item ──────────────────────────────────────────────────────────────
 
-function RoadmapItem({
-	step,
-	isLast,
-}: {
-	step: RoadmapStep;
-	isLast: boolean;
-}) {
+function RoadmapItem({ step, isLast }: { step: RoadmapStep; isLast: boolean }) {
 	const { elementRef, isVisible, pinged } = useScrollReveal(step.soundName);
 	const reducedMotion = usePrefersReducedMotion();
 
@@ -287,7 +282,10 @@ function RoadmapItem({
 			}}
 		>
 			{/* ── Left: step index + connector line ─────────────────── */}
-			<div className="flex shrink-0 flex-col items-center" style={{ width: 24 }}>
+			<div
+				className="flex shrink-0 flex-col items-center"
+				style={{ width: 24 }}
+			>
 				<span
 					className={cn(
 						"font-mono text-xs tabular-nums select-none pt-1 transition-colors duration-500",
@@ -309,8 +307,7 @@ function RoadmapItem({
 								background:
 									"linear-gradient(to bottom, color-mix(in oklch, var(--border) 65%, transparent), transparent)",
 								transform: isVisible ? "scaleY(1)" : "scaleY(0)",
-								transition:
-									"transform 1s cubic-bezier(0.22,1,0.36,1) 400ms",
+								transition: "transform 1s cubic-bezier(0.22,1,0.36,1) 400ms",
 							}}
 						/>
 					</div>
@@ -325,8 +322,7 @@ function RoadmapItem({
 					style={{
 						fontSize: "clamp(5rem, 12vw, 8.5rem)",
 						opacity: isVisible ? 0.032 : 0,
-						transform:
-							reducedMotion || isVisible ? "scale(1)" : "scale(1.25)",
+						transform: reducedMotion || isVisible ? "scale(1)" : "scale(1.25)",
 						transition: reducedMotion
 							? "opacity 0.3s ease-out"
 							: "opacity 1.1s ease-out 100ms, transform 1.1s cubic-bezier(0.22,1,0.36,1) 100ms",
@@ -353,7 +349,9 @@ function RoadmapItem({
 					style={{
 						opacity: isVisible ? 1 : 0,
 						transform:
-							reducedMotion || isVisible ? "translateX(0)" : "translateX(-10px)",
+							reducedMotion || isVisible
+								? "translateX(0)"
+								: "translateX(-10px)",
 						transition: reducedMotion
 							? "opacity 0.3s ease-out"
 							: "opacity 0.65s ease-out 100ms, transform 0.65s cubic-bezier(0.22,1,0.36,1) 100ms",
@@ -415,7 +413,7 @@ export function RoadmapPage() {
 							<span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-50" />
 							<span className="relative inline-flex size-2 rounded-full bg-primary" />
 						</span>
-						What's coming
+						What&apos;s coming
 					</div>
 
 					<h1

@@ -40215,6 +40215,14 @@
         {
           "path": "registry/soundcn/sounds/alchemy-set-loop/alchemy-set-loop.ts",
           "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
+          "type": "registry:lib"
         }
       ],
       "categories": [
@@ -40232,11 +40240,7 @@
           "set",
           "loop"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "bell-toll-alliance",
@@ -40246,6 +40250,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/bell-toll-alliance/bell-toll-alliance.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40264,11 +40276,7 @@
           "toll",
           "alliance"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "bell-toll-horde",
@@ -40278,6 +40286,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/bell-toll-horde/bell-toll-horde.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40296,11 +40312,7 @@
           "toll",
           "horde"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "bell-toll-night-elf",
@@ -40310,6 +40322,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/bell-toll-night-elf/bell-toll-night-elf.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40329,11 +40349,7 @@
           "night",
           "elf"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "black-rock-door-single-destroy",
@@ -40343,6 +40359,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/black-rock-door-single-destroy/black-rock-door-single-destroy.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40363,11 +40387,7 @@
           "single",
           "destroy"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "black-rock-doors-01-open",
@@ -40377,6 +40397,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/black-rock-doors-01-open/black-rock-doors-01-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40397,11 +40425,7 @@
           "01",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "black-rock-vault-deposit-door-01-open",
@@ -40411,6 +40435,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/black-rock-vault-deposit-door-01-open/black-rock-vault-deposit-door-01-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40433,11 +40465,7 @@
           "01",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "blasted-lands-lightningbolt-01-stand-bolt-1",
@@ -40447,6 +40475,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/blasted-lands-lightningbolt-01-stand-bolt-1/blasted-lands-lightningbolt-01-stand-bolt-1.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40469,11 +40505,7 @@
           "bolt",
           "1"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "blasted-lands-lightningbolt-01-stand-bolt-2",
@@ -40483,6 +40515,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/blasted-lands-lightningbolt-01-stand-bolt-2/blasted-lands-lightningbolt-01-stand-bolt-2.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40505,11 +40545,7 @@
           "bolt",
           "2"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "blasted-lands-lightningbolt-01-stand-bolt-3",
@@ -40519,6 +40555,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/blasted-lands-lightningbolt-01-stand-bolt-3/blasted-lands-lightningbolt-01-stand-bolt-3.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40541,11 +40585,7 @@
           "bolt",
           "3"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "boat-docked-warning",
@@ -40555,6 +40595,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/boat-docked-warning/boat-docked-warning.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40573,11 +40621,7 @@
           "docked",
           "warning"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "chest-open",
@@ -40587,6 +40631,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/chest-open/chest-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40604,11 +40656,7 @@
           "chest",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "deadmine-door-02-open",
@@ -40618,6 +40666,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/deadmine-door-02-open/deadmine-door-02-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40637,11 +40693,7 @@
           "02",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "dwarf-female-incoming-01",
@@ -40651,6 +40703,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/dwarf-female-incoming-01/dwarf-female-incoming-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40670,11 +40730,7 @@
           "incoming",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "dwarf-female-incoming-02",
@@ -40684,6 +40740,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/dwarf-female-incoming-02/dwarf-female-incoming-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40703,11 +40767,7 @@
           "incoming",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "dwarf-horn",
@@ -40717,6 +40777,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/dwarf-horn/dwarf-horn.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40734,11 +40802,7 @@
           "dwarf",
           "horn"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "fish-reel-in",
@@ -40748,6 +40812,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/fish-reel-in/fish-reel-in.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40766,11 +40838,7 @@
           "reel",
           "in"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "friend-join",
@@ -40780,6 +40848,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/friend-join/friend-join.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40797,11 +40873,7 @@
           "friend",
           "join"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-cage-closed",
@@ -40811,6 +40883,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-cage-closed/g-cage-closed.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40829,11 +40909,7 @@
           "cage",
           "closed"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-cage-open",
@@ -40843,6 +40919,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-cage-open/g-cage-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40861,11 +40945,7 @@
           "cage",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-cavein-closed",
@@ -40875,6 +40955,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-cavein-closed/g-cavein-closed.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40893,11 +40981,7 @@
           "cavein",
           "closed"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-firework-boom-general-1",
@@ -40907,6 +40991,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-firework-boom-general-1/g-firework-boom-general-1.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40927,11 +41019,7 @@
           "general",
           "1"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-firework-boom-general-4",
@@ -40941,6 +41029,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-firework-boom-general-4/g-firework-boom-general-4.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40961,11 +41057,7 @@
           "general",
           "4"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "g-gong-troll-01",
@@ -40975,6 +41067,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/g-gong-troll-01/g-gong-troll-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -40994,11 +41094,7 @@
           "troll",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "gnome-male-out-of-mana-01",
@@ -41008,6 +41104,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/gnome-male-out-of-mana-01/gnome-male-out-of-mana-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41029,11 +41133,7 @@
           "mana",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "gnome-male-out-of-mana-02",
@@ -41043,6 +41143,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/gnome-male-out-of-mana-02/gnome-male-out-of-mana-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41064,11 +41172,7 @@
           "mana",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-abilities-close-a",
@@ -41078,6 +41182,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-abilities-close-a/i-abilities-close-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41097,11 +41209,7 @@
           "close",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-abilities-open-a",
@@ -41111,6 +41219,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-abilities-open-a/i-abilities-open-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41130,11 +41246,7 @@
           "open",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-abilities-turn-page-a",
@@ -41144,6 +41256,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-abilities-turn-page-a/i-abilities-turn-page-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41164,11 +41284,7 @@
           "page",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-abilities-turn-page-b",
@@ -41178,6 +41294,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-abilities-turn-page-b/i-abilities-turn-page-b.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41198,11 +41322,7 @@
           "page",
           "b"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-abilities-turn-page-c",
@@ -41212,6 +41332,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-abilities-turn-page-c/i-abilities-turn-page-c.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41232,11 +41360,7 @@
           "page",
           "c"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-equipment-container-open-a",
@@ -41246,6 +41370,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-equipment-container-open-a/i-equipment-container-open-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41266,11 +41398,7 @@
           "open",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-money-dialog-open",
@@ -41280,6 +41408,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-money-dialog-open/i-money-dialog-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41299,11 +41435,7 @@
           "dialog",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-quest-activate",
@@ -41313,6 +41445,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-quest-activate/i-quest-activate.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41331,11 +41471,7 @@
           "quest",
           "activate"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-quest-complete",
@@ -41345,6 +41481,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-quest-complete/i-quest-complete.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41363,11 +41507,7 @@
           "quest",
           "complete"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-quest-log-open-a",
@@ -41377,6 +41517,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-quest-log-open-a/i-quest-log-open-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41397,11 +41545,7 @@
           "open",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-quest-update",
@@ -41411,6 +41555,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-quest-update/i-quest-update.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41429,11 +41581,7 @@
           "quest",
           "update"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-ui-interface-button-a",
@@ -41443,6 +41591,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-ui-interface-button-a/i-ui-interface-button-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41463,11 +41619,7 @@
           "button",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "i-uimain-menu-button-a",
@@ -41477,6 +41629,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/i-uimain-menu-button-a/i-uimain-menu-button-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41497,11 +41657,7 @@
           "button",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "loot-coin-small",
@@ -41511,6 +41667,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/loot-coin-small/loot-coin-small.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41529,11 +41693,7 @@
           "coin",
           "small"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-colossal-grass-a",
@@ -41543,6 +41703,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-colossal-grass-a/m-death-impact-colossal-grass-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41564,11 +41732,7 @@
           "grass",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-colossal-snow-a",
@@ -41578,6 +41742,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-colossal-snow-a/m-death-impact-colossal-snow-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41599,11 +41771,7 @@
           "snow",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-colossal-water-a",
@@ -41613,6 +41781,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-colossal-water-a/m-death-impact-colossal-water-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41634,11 +41810,7 @@
           "water",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-colossal-wood-a",
@@ -41648,6 +41820,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-colossal-wood-a/m-death-impact-colossal-wood-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41669,11 +41849,7 @@
           "wood",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-giant-snow-a",
@@ -41683,6 +41859,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-giant-snow-a/m-death-impact-giant-snow-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41704,11 +41888,7 @@
           "snow",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-large-stone-a",
@@ -41718,6 +41898,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-large-stone-a/m-death-impact-large-stone-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41739,11 +41927,7 @@
           "stone",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-medium-water-a",
@@ -41753,6 +41937,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-medium-water-a/m-death-impact-medium-water-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41774,11 +41966,7 @@
           "water",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-medium-wood-a",
@@ -41788,6 +41976,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-medium-wood-a/m-death-impact-medium-wood-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41809,11 +42005,7 @@
           "wood",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-small-snow-a",
@@ -41823,6 +42015,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-small-snow-a/m-death-impact-small-snow-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41844,11 +42044,7 @@
           "snow",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "m-death-impact-small-wood-a",
@@ -41858,6 +42054,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/m-death-impact-small-wood-a/m-death-impact-small-wood-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41879,11 +42083,7 @@
           "wood",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "mining-hit-a",
@@ -41893,6 +42093,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/mining-hit-a/mining-hit-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41911,11 +42119,7 @@
           "hit",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "mining-hit-b",
@@ -41925,6 +42129,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/mining-hit-b/mining-hit-b.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41943,11 +42155,7 @@
           "hit",
           "b"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "mining-hit-c",
@@ -41957,6 +42165,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/mining-hit-c/mining-hit-c.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -41975,11 +42191,7 @@
           "hit",
           "c"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "mining-hit-d",
@@ -41989,6 +42201,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/mining-hit-d/mining-hit-d.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42007,11 +42227,7 @@
           "hit",
           "d"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "mining-hit-e",
@@ -42021,6 +42237,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/mining-hit-e/mining-hit-e.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42039,11 +42263,7 @@
           "hit",
           "e"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "night-elf-female-incoming-01",
@@ -42053,6 +42273,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/night-elf-female-incoming-01/night-elf-female-incoming-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42073,11 +42301,7 @@
           "incoming",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "night-elf-female-incoming-02",
@@ -42087,6 +42311,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/night-elf-female-incoming-02/night-elf-female-incoming-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42107,11 +42339,7 @@
           "incoming",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "nox-door-portcullis",
@@ -42121,6 +42349,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/nox-door-portcullis/nox-door-portcullis.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42139,11 +42375,7 @@
           "door",
           "portcullis"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-charge-01",
@@ -42153,6 +42385,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-charge-01/orc-female-charge-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42172,11 +42412,7 @@
           "charge",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-charge-02",
@@ -42186,6 +42422,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-charge-02/orc-female-charge-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42205,11 +42449,7 @@
           "charge",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-charge-03",
@@ -42219,6 +42459,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-charge-03/orc-female-charge-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42238,11 +42486,7 @@
           "charge",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-open-fire-01",
@@ -42252,6 +42496,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-open-fire-01/orc-female-open-fire-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42272,11 +42524,7 @@
           "fire",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-open-fire-02",
@@ -42286,6 +42534,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-open-fire-02/orc-female-open-fire-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42306,11 +42562,7 @@
           "fire",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-open-fire-03",
@@ -42320,6 +42572,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-open-fire-03/orc-female-open-fire-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42340,11 +42600,7 @@
           "fire",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcfarewell-01",
@@ -42354,6 +42610,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcfarewell-01/orc-female-standard-npcfarewell-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42374,11 +42638,7 @@
           "npcfarewell",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcfarewell-02",
@@ -42388,6 +42648,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcfarewell-02/orc-female-standard-npcfarewell-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42408,11 +42676,7 @@
           "npcfarewell",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcfarewell-03",
@@ -42422,6 +42686,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcfarewell-03/orc-female-standard-npcfarewell-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42442,11 +42714,7 @@
           "npcfarewell",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcfarewell-04",
@@ -42456,6 +42724,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcfarewell-04/orc-female-standard-npcfarewell-04.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42476,11 +42752,7 @@
           "npcfarewell",
           "04"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcfarewell-05",
@@ -42490,6 +42762,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcfarewell-05/orc-female-standard-npcfarewell-05.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42510,11 +42790,7 @@
           "npcfarewell",
           "05"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-01",
@@ -42524,6 +42800,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-01/orc-female-standard-npcgreeting-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42544,11 +42828,7 @@
           "npcgreeting",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-02",
@@ -42558,6 +42838,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-02/orc-female-standard-npcgreeting-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42578,11 +42866,7 @@
           "npcgreeting",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-03",
@@ -42592,6 +42876,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-03/orc-female-standard-npcgreeting-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42612,11 +42904,7 @@
           "npcgreeting",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-04",
@@ -42626,6 +42914,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-04/orc-female-standard-npcgreeting-04.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42646,11 +42942,7 @@
           "npcgreeting",
           "04"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-05",
@@ -42660,6 +42952,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-05/orc-female-standard-npcgreeting-05.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42680,11 +42980,7 @@
           "npcgreeting",
           "05"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-standard-npcgreeting-06",
@@ -42694,6 +42990,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-standard-npcgreeting-06/orc-female-standard-npcgreeting-06.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42714,11 +43018,7 @@
           "npcgreeting",
           "06"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-youre-welcome-01",
@@ -42728,6 +43028,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-youre-welcome-01/orc-female-youre-welcome-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42748,11 +43056,7 @@
           "welcome",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-youre-welcome-02",
@@ -42762,6 +43066,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-youre-welcome-02/orc-female-youre-welcome-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42782,11 +43094,7 @@
           "welcome",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-female-youre-welcome-03",
@@ -42796,6 +43104,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-female-youre-welcome-03/orc-female-youre-welcome-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42816,11 +43132,7 @@
           "welcome",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-err-norage-01",
@@ -42830,6 +43142,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-err-norage-01/orc-male-err-norage-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42850,11 +43170,7 @@
           "norage",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-err-norage-05",
@@ -42864,6 +43180,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-err-norage-05/orc-male-err-norage-05.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42884,11 +43208,7 @@
           "norage",
           "05"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-goodbye-01",
@@ -42898,6 +43218,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-goodbye-01/orc-male-goodbye-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42917,11 +43245,7 @@
           "goodbye",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-goodbye-02",
@@ -42931,6 +43255,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-goodbye-02/orc-male-goodbye-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42950,11 +43282,7 @@
           "goodbye",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-goodbye-03",
@@ -42964,6 +43292,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-goodbye-03/orc-male-goodbye-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -42983,11 +43319,7 @@
           "goodbye",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-raspberry-01",
@@ -42997,6 +43329,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-raspberry-01/orc-male-raspberry-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43016,11 +43356,7 @@
           "raspberry",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-yes-01",
@@ -43030,6 +43366,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-yes-01/orc-male-yes-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43049,11 +43393,7 @@
           "yes",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-yes-02",
@@ -43063,6 +43403,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-yes-02/orc-male-yes-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43082,11 +43430,7 @@
           "yes",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-yes-03",
@@ -43096,6 +43440,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-yes-03/orc-male-yes-03.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43115,11 +43467,7 @@
           "yes",
           "03"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "orc-male-yes-04",
@@ -43129,6 +43477,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/orc-male-yes-04/orc-male-yes-04.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43148,11 +43504,7 @@
           "yes",
           "04"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "pvp-rune-speed-custom-0",
@@ -43162,6 +43514,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/pvp-rune-speed-custom-0/pvp-rune-speed-custom-0.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43182,11 +43542,7 @@
           "custom",
           "0"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "shadowfang-door-01-open",
@@ -43196,6 +43552,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/shadowfang-door-01-open/shadowfang-door-01-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43215,11 +43579,7 @@
           "01",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "sheath-wood",
@@ -43229,6 +43589,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/sheath-wood/sheath-wood.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43246,11 +43614,7 @@
           "sheath",
           "wood"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "stone-door-01-close",
@@ -43260,6 +43624,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/stone-door-01-close/stone-door-01-close.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43279,11 +43651,7 @@
           "01",
           "close"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "subway-stop",
@@ -43293,6 +43661,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/subway-stop/subway-stop.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43310,11 +43686,7 @@
           "subway",
           "stop"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "tauren-wind-mil-regularl-loop",
@@ -43324,6 +43696,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/tauren-wind-mil-regularl-loop/tauren-wind-mil-regularl-loop.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43344,11 +43724,7 @@
           "regularl",
           "loop"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "thunderbluff-elevator-stop",
@@ -43358,6 +43734,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/thunderbluff-elevator-stop/thunderbluff-elevator-stop.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43376,11 +43760,7 @@
           "elevator",
           "stop"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "u-character-sheet-close",
@@ -43390,6 +43770,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/u-character-sheet-close/u-character-sheet-close.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43409,11 +43797,7 @@
           "sheet",
           "close"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "u-chat-scroll-button",
@@ -43423,6 +43807,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/u-chat-scroll-button/u-chat-scroll-button.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43442,11 +43834,7 @@
           "scroll",
           "button"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "u-escape-screen-open",
@@ -43456,6 +43844,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/u-escape-screen-open/u-escape-screen-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43475,11 +43871,7 @@
           "screen",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "u-mini-map-open",
@@ -43489,6 +43881,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/u-mini-map-open/u-mini-map-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43508,11 +43908,7 @@
           "map",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "ui-blizzard-store-confirm-purchase",
@@ -43522,6 +43918,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/ui-blizzard-store-confirm-purchase/ui-blizzard-store-confirm-purchase.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43542,11 +43946,7 @@
           "confirm",
           "purchase"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "un-sheath-wood",
@@ -43556,6 +43956,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/un-sheath-wood/un-sheath-wood.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43574,11 +43982,7 @@
           "sheath",
           "wood"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "undead-female-open-fire-01",
@@ -43588,6 +43992,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/undead-female-open-fire-01/undead-female-open-fire-01.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43608,11 +44020,7 @@
           "fire",
           "01"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "undead-female-open-fire-02",
@@ -43622,6 +44030,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/undead-female-open-fire-02/undead-female-open-fire-02.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43642,11 +44058,7 @@
           "fire",
           "02"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "unsheath-metal",
@@ -43656,6 +44068,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/unsheath-metal/unsheath-metal.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43673,11 +44093,7 @@
           "unsheath",
           "metal"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "wind-mill-west-fall-loop-stand",
@@ -43687,6 +44103,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/wind-mill-west-fall-loop-stand/wind-mill-west-fall-loop-stand.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43708,11 +44132,7 @@
           "loop",
           "stand"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "write-quest-a",
@@ -43722,6 +44142,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/write-quest-a/write-quest-a.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43740,11 +44168,7 @@
           "quest",
           "a"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "write-quest-b",
@@ -43754,6 +44178,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/write-quest-b/write-quest-b.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43772,11 +44204,7 @@
           "quest",
           "b"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "write-quest-c",
@@ -43786,6 +44214,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/write-quest-c/write-quest-c.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43804,11 +44240,7 @@
           "quest",
           "c"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "wrought-iron-door-open",
@@ -43818,6 +44250,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/wrought-iron-door-open/wrought-iron-door-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43837,11 +44277,7 @@
           "door",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     },
     {
       "name": "zul-gurub-main-door-open",
@@ -43851,6 +44287,14 @@
       "files": [
         {
           "path": "registry/soundcn/sounds/zul-gurub-main-door-open/zul-gurub-main-door-open.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-types.ts",
+          "type": "registry:lib"
+        },
+        {
+          "path": "registry/soundcn/lib/sound-engine.ts",
           "type": "registry:lib"
         }
       ],
@@ -43871,11 +44315,7 @@
           "door",
           "open"
         ]
-      },
-      "registryDependencies": [
-        "use-sound",
-        "sound-engine"
-      ]
+      }
     }
   ]
 }

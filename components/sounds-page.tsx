@@ -32,8 +32,7 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
 	const { onPreviewStart, onPreviewStop } = useHoverPreview();
 
 	return (
-		<div className="flex min-h-svh flex-col">
-			<Header />
+		<>
 			<Hero sounds={sounds} />
 			<GlobalFilters
 				sounds={sounds}
@@ -66,9 +65,8 @@ export function SoundsPage({ sounds }: SoundsPageProps) {
 				</div>
 			</main>
 
-			<Footer />
 			<BatchInstallBar sounds={sounds} />
 			<SoundDetail sounds={deferredSounds} />
-		</div>
+		</>
 	);
 }

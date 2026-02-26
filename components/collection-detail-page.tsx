@@ -1,9 +1,9 @@
 "use client";
 
+import { ChevronLeft, ShieldAlert } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRef } from "react";
-import { ChevronLeft, ShieldAlert } from "lucide-react";
 import { BatchInstallBar } from "@/components/batch-install-bar";
 import { Footer } from "@/components/footer";
 import { GlobalFilters } from "@/components/global-fiters";
@@ -36,9 +36,7 @@ export function CollectionDetailPage({
 	const { onPreviewStart, onPreviewStop } = useHoverPreview();
 
 	return (
-		<div className="flex min-h-svh flex-col">
-			<Header />
-
+		<>
 			{/* ── Hero ── */}
 			<section className="relative overflow-hidden px-6 pt-8 pb-14 sm:pt-14 sm:pb-20">
 				<div
@@ -95,12 +93,13 @@ export function CollectionDetailPage({
 										className="size-3.5 text-primary/70 shrink-0"
 										aria-hidden="true"
 									/>
-									<span
-										className="font-display text-[10px] font-bold tracking-[0.14em] uppercase text-primary/70"
-									>
+									<span className="font-display text-[10px] font-bold tracking-[0.14em] uppercase text-primary/70">
 										Legal Notice
 									</span>
-									<span className="flex-1 h-px bg-primary/15" aria-hidden="true" />
+									<span
+										className="flex-1 h-px bg-primary/15"
+										aria-hidden="true"
+									/>
 								</div>
 
 								{/* Body */}
@@ -146,9 +145,8 @@ export function CollectionDetailPage({
 				</div>
 			</main>
 
-			<Footer />
 			<BatchInstallBar sounds={sounds} />
 			<SoundDetail sounds={deferredSounds} />
-		</div>
+		</>
 	);
 }

@@ -1,7 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
+
 import { HeroBars } from "@/components/hero-bars";
 import type { Collection } from "@/lib/collections";
 import type { SoundCatalogItem } from "@/lib/sound-catalog";
@@ -35,9 +34,7 @@ export function CollectionsListPage({ collections }: CollectionsListPageProps) {
 	const totalSounds = collections.reduce((sum, c) => sum + c.sounds.length, 0);
 
 	return (
-		<div className="flex min-h-svh flex-col">
-			<Header />
-
+		<>
 			{/* ── Hero ── */}
 			<section className="relative overflow-hidden px-6 pt-8 pb-14 sm:pt-14 sm:pb-20">
 				<div
@@ -139,8 +136,6 @@ export function CollectionsListPage({ collections }: CollectionsListPageProps) {
 					})}
 				</div>
 			</main>
-
-			<Footer />
-		</div>
+		</>
 	);
 }

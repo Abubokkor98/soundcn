@@ -85,6 +85,18 @@ const PRIVACY_SECTIONS: Section[] = [
 						</a>
 						.
 					</li>
+					<li>
+						<strong>Creem</strong> — payment processing for sponsorships. When
+						you make a payment, you are subject to{" "}
+						<a
+							href="https://www.creem.io/privacy"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Creem&apos;s Privacy Policy
+						</a>
+						. soundcn does not store your payment details.
+					</li>
 				</ul>
 			</>
 		),
@@ -104,7 +116,9 @@ const PRIVACY_SECTIONS: Section[] = [
 		title: "Contact",
 		content: (
 			<p>
-				Questions about privacy? Open an issue on{" "}
+				Questions about privacy? Email us at{" "}
+				<a href="mailto:kapishdima@gmail.com">kapishdima@gmail.com</a> or open
+				an issue on{" "}
 				<a
 					href="https://github.com/kapishdima/soundcn"
 					target="_blank"
@@ -141,20 +155,63 @@ const TERMS_SECTIONS: Section[] = [
 		id: "sound-licenses",
 		title: "Sound file licenses",
 		content: (
-			<p>
-				Each sound in the registry includes license metadata. Most sounds are
-				released under{" "}
-				<a
-					href="https://creativecommons.org/publicdomain/zero/1.0/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					CC0 1.0
-				</a>{" "}
-				or permissive open licenses. Check the individual sound&apos;s metadata
-				before use in commercial projects. soundcn makes no warranty that all
-				sounds are free from third-party claims.
-			</p>
+			<>
+				<p>
+					Each sound in the registry includes license metadata. Most sounds are
+					released under{" "}
+					<a
+						href="https://creativecommons.org/publicdomain/zero/1.0/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						CC0 1.0
+					</a>{" "}
+					or permissive open licenses (primarily from{" "}
+					<a
+						href="https://kenney.nl"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Kenney.nl
+					</a>
+					).
+				</p>
+				<p>
+					The <strong>World of Warcraft collection</strong> is an exception —
+					those sound assets are the property of Blizzard Entertainment, Inc.
+					and are <strong>not</strong> CC0 or freely licensed. They are included
+					for non-commercial, educational, and reference purposes only. Do not
+					use them in commercial projects.
+				</p>
+				<p>
+					Check each sound&apos;s metadata before use. soundcn makes no
+					warranty that all sounds are free from third-party claims.
+				</p>
+			</>
+		),
+	},
+	{
+		id: "third-party-trademarks",
+		title: "Third-party trademarks",
+		content: (
+			<>
+				<p>
+					soundcn includes a curated collection of sound assets from{" "}
+					<strong>World of Warcraft®</strong>, a game developed and published by
+					Blizzard Entertainment, Inc.
+				</p>
+				<p>
+					soundcn is <strong>not affiliated with, endorsed by, or associated
+					with Blizzard Entertainment, Inc.</strong> in any way. World of
+					Warcraft® is a registered trademark of Blizzard Entertainment, Inc.
+					All rights to these sound assets belong to their respective owners.
+				</p>
+				<p>
+					These assets are included for non-commercial, educational, and
+					reference purposes only. If you are a rights holder and believe any
+					content should be removed, please contact us.
+				</p>
+			</>
 		),
 	},
 	{
@@ -166,6 +223,26 @@ const TERMS_SECTIONS: Section[] = [
 				express or implied. The authors are not liable for any claim, damages, or
 				other liability arising from use of the service or sound files.
 			</p>
+		),
+	},
+	{
+		id: "refund-policy",
+		title: "Refund policy",
+		content: (
+			<>
+				<p>
+					Sponsorships are <strong>one-time, voluntary payments</strong> made to
+					support open-source development. Because soundcn is a free product and
+					no goods or services are delivered in exchange, all payments are
+					generally non-refundable.
+				</p>
+				<p>
+					If you believe a payment was made in error, contact us at{" "}
+					<a href="mailto:kapishdima@gmail.com">kapishdima@gmail.com</a> within
+					14 days of the transaction. We will review each request individually
+					and issue a refund at our discretion.
+				</p>
+			</>
 		),
 	},
 	{

@@ -24,33 +24,31 @@ export function Header() {
 					aria-label="Primary navigation"
 				>
 					{(
-					[
-						{ href: "/collections", label: "Collections" },
-						{ href: "/roadmap", label: "Roadmap" },
-						{ href: "/sponsors", label: "Sponsors" },
-					] as const
-				).map(
-						({ href, label }) => (
-							<Link
-								key={href}
-								href={href}
-								aria-current={pathname === href ? "page" : undefined}
-								className={cn(
-									"px-3 py-1.5 text-sm font-medium transition-colors duration-150",
-									"focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50 rounded-sm",
-									pathname === href
-										? "text-primary"
-										: "text-muted-foreground hover:text-foreground",
-								)}
-							>
-								{label}
-							</Link>
-						),
-					)}
+						[
+							{ href: "/collections", label: "Collections" },
+							{ href: "/roadmap", label: "Roadmap" },
+							{ href: "/sponsors", label: "Sponsors" },
+						] as const
+					).map(({ href, label }) => (
+						<Link
+							key={href}
+							href={href}
+							aria-current={pathname === href ? "page" : undefined}
+							className={cn(
+								"px-3 py-1.5 text-sm font-medium transition-colors duration-150",
+								"focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50 rounded-sm",
+								pathname === href
+									? "text-primary"
+									: "text-muted-foreground hover:text-foreground",
+							)}
+						>
+							{label}
+						</Link>
+					))}
 				</nav>
 
 				<div className="flex items-center gap-3">
-					<a
+					{/* <a
 						href={SPONSOR_URL}
 						target="_blank"
 						rel="noopener noreferrer"
@@ -64,7 +62,7 @@ export function Header() {
 					>
 						<Heart className="size-3 fill-current" aria-hidden="true" />
 						Sponsor
-					</a>
+					</a> */}
 					<a
 						href="https://github.com/kapishdima/soundcn"
 						target="_blank"

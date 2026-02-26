@@ -18,6 +18,12 @@ export function Footer() {
 						Privacy & Terms
 					</Link>
 					<a
+						href="mailto:kapishdima@gmail.com"
+						className="hover:text-foreground transition-colors duration-150"
+					>
+						Support
+					</a>
+					<a
 						href="https://github.com/kapishdima/soundcn"
 						target="_blank"
 						rel="noopener noreferrer"

@@ -10,3 +10,6 @@ export const EMPTY_EQ = [35, 55, 25, 70, 40, 60, 30];
 
 export const SPONSOR_URL =
 	"https://www.creem.io/payment/prod_6HJFTdpzKJPSsXuBFpG1RC";
+
+export const SPONSOR_PRICE = "$5";
+export const SPONSOR_PRICE_TYPE = "one-time";

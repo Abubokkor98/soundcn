@@ -39,4 +39,6 @@ const [play] = useSound(clickSoftSound);
 
 ## License
 
-Sounds are sourced from CC0-licensed collections (primarily [Kenney](https://kenney.nl)).
+Most sounds are sourced from CC0-licensed collections (primarily [Kenney](https://kenney.nl)).
+
+The **World of Warcraft collection** (110 sounds) is an exception — those assets are property of Blizzard Entertainment, Inc. and are **not** CC0 or freely licensed. soundcn is not affiliated with or endorsed by Blizzard Entertainment, Inc. World of Warcraft® is a registered trademark of Blizzard Entertainment, Inc. These sounds are included for non-commercial, educational, and reference purposes only.

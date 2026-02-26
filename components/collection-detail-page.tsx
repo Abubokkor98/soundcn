@@ -3,8 +3,9 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRef } from "react";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, ShieldAlert } from "lucide-react";
 import { BatchInstallBar } from "@/components/batch-install-bar";
+import { Footer } from "@/components/footer";
 import { GlobalFilters } from "@/components/global-fiters";
 import { Header } from "@/components/header";
 import { HeroBars } from "@/components/hero-bars";
@@ -75,6 +76,40 @@ export function CollectionDetailPage({
 					>
 						{collection.description}
 					</p>
+
+					{collection.disclaimer && (
+						<div
+							className="stagger-fade-up mt-7 max-w-2xl"
+							style={{ animationDelay: "150ms" }}
+						>
+							<div
+								className="relative overflow-hidden rounded-r-lg border-l-2 border-primary/60 bg-primary/[0.04] dark:bg-primary/[0.07] pl-5 pr-5 py-4"
+								style={{
+									backgroundImage:
+										"repeating-linear-gradient(135deg, transparent, transparent 12px, oklch(0.55 0.17 55 / 0.025) 12px, oklch(0.55 0.17 55 / 0.025) 13px)",
+								}}
+							>
+								{/* Label row */}
+								<div className="flex items-center gap-2 mb-2">
+									<ShieldAlert
+										className="size-3.5 text-primary/70 shrink-0"
+										aria-hidden="true"
+									/>
+									<span
+										className="font-display text-[10px] font-bold tracking-[0.14em] uppercase text-primary/70"
+									>
+										Legal Notice
+									</span>
+									<span className="flex-1 h-px bg-primary/15" aria-hidden="true" />
+								</div>
+
+								{/* Body */}
+								<p className="text-xs text-muted-foreground leading-relaxed">
+									{collection.disclaimer}
+								</p>
+							</div>
+						</div>
+					)}
 				</div>
 			</section>
 
@@ -111,6 +146,7 @@ export function CollectionDetailPage({
 				</div>
 			</main>
 
+			<Footer />
 			<BatchInstallBar sounds={sounds} />
 			<SoundDetail sounds={deferredSounds} />
 		</div>

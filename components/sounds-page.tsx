@@ -3,9 +3,7 @@
 import dynamic from "next/dynamic";
 import { useRef } from "react";
 import { BatchInstallBar } from "@/components/batch-install-bar";
-import { Footer } from "@/components/footer";
 import { GlobalFilters } from "@/components/global-fiters";
-import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { KeyboardTips } from "@/components/keyboard-tips";
 import { SoundGrid } from "@/components/sound-grid";

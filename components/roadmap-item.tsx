@@ -261,7 +261,7 @@ function SoundLabel({
 		>
 			{/* Mini EQ bars — animate when pinged */}
 			<span className="flex h-3 items-end gap-[2px]" aria-hidden="true">
-				{EQ_HEIGHTS.map((h, i) => (
+				{EQ_HEIGHTS.map((h) => (
 					<span
 						key={`eq-${stepId}-${h}`}
 						className={cn(

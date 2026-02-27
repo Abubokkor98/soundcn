@@ -1,5 +1,6 @@
 import { HeroBars } from "@/components/hero-bars";
 import { HeroInstallationCode } from "@/components/hero-installation-code";
+import { HeroSponsors } from "@/components/hero-sponsors";
 import { SOUNDS_LENGTH } from "@/lib/constants";
 import type { SoundCatalogItem } from "@/lib/sound-catalog";
 
@@ -38,6 +39,8 @@ export function Hero({ sounds }: { sounds: SoundCatalogItem[] }) {
 				>
 					<HeroInstallationCode sounds={sounds} />
 				</div>
+
+				<HeroSponsors />
 			</div>
 		</section>
 	);

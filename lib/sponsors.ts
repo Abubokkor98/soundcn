@@ -29,4 +29,14 @@ export const SPONSORS: Sponsor[] = [
 		url: "https://www.orcdev.com/",
 		logo: "https://avatars.githubusercontent.com/u/7549148?v=4",
 	},
+	{
+		name: "Irsyad A. Panjaitan",
+		url: "https://irsyad.co/",
+		logo: "https://avatars.githubusercontent.com/u/44585532?v=4",
+	},
+	{
+		name: "Chánh Đại",
+		url: "https://chanhdai.com/",
+		logo: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+	},
 ];

@@ -44,4 +44,14 @@ export const SPONSORS: Sponsor[] = [
 		url: "https://pro.reactbits.dev/",
 		logo: "https://avatars.githubusercontent.com/u/48634587?v=4",
 	},
+	{
+		name: "Nuqs",
+		url: "https://nuqs.dev/",
+		logo: "https://pbs.twimg.com/profile_images/1825629130852859904/TvP7rOsK_400x400.jpg",
+	},
+	{
+		name: "Shaban",
+		url: "https://efferd.com/",
+		logo: "https://pbs.twimg.com/profile_images/2024177105110781953/zPXZyKbx_400x400.jpg",
+	},
 ];

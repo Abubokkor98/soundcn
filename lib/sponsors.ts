@@ -39,4 +39,9 @@ export const SPONSORS: Sponsor[] = [
 		url: "https://chanhdai.com/",
 		logo: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
 	},
+	{
+		name: "David Haz",
+		url: "https://pro.reactbits.dev/",
+		logo: "https://avatars.githubusercontent.com/u/48634587?v=4",
+	},
 ];

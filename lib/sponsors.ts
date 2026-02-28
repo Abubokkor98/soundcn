@@ -80,8 +80,13 @@ export const SPONSORS: Sponsor[] = [
 		logo: "https://pbs.twimg.com/profile_images/2026346581998579718/sTG3FVKy_400x400.jpg",
 	},
 	{
-		name: "AAlex Kostyniuk",
+		name: "Alex Kostyniuk",
 		url: "https://mellowlines.dev/",
 		logo: "https://pbs.twimg.com/profile_images/1780553225067692032/GAal_jdo_400x400.jpg",
+	},
+	{
+		name: "Kartik",
+		url: "https://www.kartikk.tech/",
+		logo: "https://pbs.twimg.com/profile_images/2002424842470203392/4ZusYS4Y_400x400.jpg",
 	},
 ];

@@ -30,6 +30,11 @@ export const SPONSORS: Sponsor[] = [
 		logo: "https://cdn.shadcnstudio.com/ss-assets/marketing/shadcn-studio-logos/shadcn-studio-symbol.svg",
 	},
 	{
+		name: "Shadcn Space",
+		url: "https://shadcnspace.com/",
+		logo: "https://pbs.twimg.com/profile_images/1998745226710757379/OKDPM3p-_400x400.jpg",
+	},
+	{
 		name: "Ali Bey",
 		url: "https://x.com/AliBey_10",
 		logo: "https://avatars.githubusercontent.com/u/42802922?v=4",

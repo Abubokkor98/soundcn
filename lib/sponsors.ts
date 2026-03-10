@@ -104,4 +104,9 @@ export const SPONSORS: Sponsor[] = [
 		url: "https://www.kartikk.tech/",
 		logo: "https://pbs.twimg.com/profile_images/2002424842470203392/4ZusYS4Y_400x400.jpg",
 	},
+	{
+		name: "Nathan Brodin",
+		url: "https://brodin.dev/",
+		logo: "https://pbs.twimg.com/profile_images/1842594307569573888/1ZQfD1w0_400x400.jpg",
+	},
 ];
